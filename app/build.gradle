@@ -66,5 +66,6 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$version_coroutine"
 
     // Glide
-    //final version_glide = "4.8.0"
+    final version_glide = "4.11.0"
+    implementation "com.github.bumptech.glide:glide:$version_glide"
 }
