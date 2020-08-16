@@ -60,4 +60,6 @@ dependencies {
     final version_moshi = "1.8.0"
     implementation "com.squareup.moshi:moshi-kotlin:$version_moshi"
 
+    // Glide
+    //final version_glide = "4.8.0"
 }
