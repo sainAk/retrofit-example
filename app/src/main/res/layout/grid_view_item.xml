@@ -6,8 +6,8 @@
     <data>
 
         <variable
-            name="viewModel"
-            type="io.github.sainak.marsrealestate.overview.OverviewViewModel" />
+            name="property"
+            type="io.github.sainak.marsrealestate.network.MarsProperty" />
     </data>
 
     <ImageView
