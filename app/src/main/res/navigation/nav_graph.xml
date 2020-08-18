@@ -9,7 +9,7 @@
         android:id="@+id/overviewFragment"
         android:name="io.github.sainak.marsrealestate.overview.OverviewFragment"
         android:label="fragment_overview"
-        tools:layout="@layout/fragment_overview">
+        tools:layout="@layout/fragment_overview" >
         <action
             android:id="@+id/action_showDetail"
             app:destination="@id/detailFragment" />
@@ -19,6 +19,11 @@
         android:id="@+id/detailFragment"
         android:name="io.github.sainak.marsrealestate.detail.DetailFragment"
         android:label="fragment_detail"
-        tools:layout="@layout/fragment_detail"></fragment>
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="selectedProperty"
+            app:argType="io.github.sainak.marsrealestate.network.MarsProperty"
+            />
+    </fragment>
 
 </navigation>
